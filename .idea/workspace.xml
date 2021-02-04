@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26bc853f-1f87-4f70-8eda-1495882748c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tmall: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/program/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Users\Allen\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nxnlVtsSCCUkQXmDPgdWsykhaN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jms.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jms.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20190807NN\Desktop\status2\资料\16-JSON和Ajax请求\代码\mall_demo\web\WEB-INF\lib" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jms.bean" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ReviewDAOTest.list">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewDAOTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jms.dao.ReviewDAOTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jms.dao.ReviewDAOTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewDAOTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jms.dao.ReviewDAOTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewDAOTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jms.dao.ReviewDAOTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jms.dao.ReviewDAOTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.60" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.60" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="mall_demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mall_demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mall_demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReviewDAOTest.list" />
+        <item itemvalue="JUnit.ReviewDAOTest.get" />
+        <item itemvalue="JUnit.ReviewDAOTest.delete" />
+        <item itemvalue="JUnit.ReviewDAOTest.update" />
+        <item itemvalue="JUnit.ReviewDAOTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2b41f497" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bc853f-1f87-4f70-8eda-1495882748c3" name="Default Changelist" comment="" />
+      <created>1612340760971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612340760971</updated>
+      <workItem from="1612340766045" duration="5245000" />
+      <workItem from="1612404065815" duration="24892000" />
+    </task>
+    <task id="LOCAL-00001" summary="DAO finished">
+      <created>1612438652891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612438652892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DAO finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO finished" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="87" key="#Project_Structure" timestamp="1612343072426">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1612343072426" />
+    <state x="392" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612340785504">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612340785504" />
+    <state x="605" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1612432736831">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1612432736831" />
+    <state x="530" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1612406514288">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1612406514288" />
+    <state x="574" y="269" width="451" height="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612417766277">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="574" y="269" width="451" height="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1612417766277" />
+    <state x="555" y="45" key="#xdebugger.evaluate" timestamp="1612407016500">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="555" y="45" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1612407016500" />
+    <state x="211" y="0" key="CommitChangelistDialog2" timestamp="1612438651640">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="211" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1612438651640" />
+    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1612438594954">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612438594954" />
+    <state width="1556" height="169" key="GridCell.Tab.0.bottom" timestamp="1612432828572">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612432828572" />
+    <state width="1556" height="169" key="GridCell.Tab.0.center" timestamp="1612432828571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612432828571" />
+    <state width="1556" height="169" key="GridCell.Tab.0.left" timestamp="1612432828571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612432828571" />
+    <state width="1556" height="169" key="GridCell.Tab.0.right" timestamp="1612432828572">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612432828572" />
+    <state width="1556" height="245" key="GridCell.Tab.1.bottom" timestamp="1612407033721">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="245" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612407033721" />
+    <state width="1556" height="245" key="GridCell.Tab.1.center" timestamp="1612407033721">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="245" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1612407033721" />
+    <state width="1556" height="245" key="GridCell.Tab.1.left" timestamp="1612407033721">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="245" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1612407033721" />
+    <state width="1556" height="245" key="GridCell.Tab.1.right" timestamp="1612407033721">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="245" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1612407033721" />
+    <state width="220" height="539" key="HiddenNamespacesPopup" timestamp="1612341008826">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="220" height="539" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1612341008826" />
+    <state x="280" y="3" key="SettingsEditor" timestamp="1612406803290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="3" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1612406803290" />
+    <state x="751" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1612432699614">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="751" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1612432699614" />
+    <state x="564" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612430003390">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="564" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1612430003390" />
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1612412201463">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1612412201463" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1612438605407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1612438605406" />
+  </component>
+</project>
