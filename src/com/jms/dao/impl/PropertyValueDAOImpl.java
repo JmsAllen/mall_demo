@@ -34,7 +34,8 @@ public class PropertyValueDAOImpl implements PropertyValueDAO {
     @Override
     public void add(PropertyValue bean) {
         String sql = "insert into tmall.PropertyValue values(null,?,?,?)";
-        try (Connection c = DBUtil.getConnection(); PreparedStatement ps = c.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);) {
+        try (Connection c = DBUtil.getConnection();
+             PreparedStatement ps = c.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);) {
 
             ps.setInt(1, bean.getProduct().getId());
             ps.setInt(2, bean.getProperty().getId());
@@ -188,6 +189,12 @@ public class PropertyValueDAOImpl implements PropertyValueDAO {
         return beans;
     }
 
+    /**
+     * 传入一个产品，得到该产品所有的 property ，然后初始化每一个 property 的
+     * propertyValue ， 如果某个 property 还没有 propertyValue ，
+     * 则创建一个实例
+     * @param p
+     */
     @Override
     public void init(Product p) {
         List<Property> pts = new PropertyDAOImpl().list(p.getCategory().getId());

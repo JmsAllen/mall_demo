@@ -33,7 +33,8 @@ public class OrderItemDAOImpl implements OrderItemDAO {
     @Override
     public void add(OrderItem bean) {
         String sql = "insert into tmall.OrderItem values(null,?,?,?,?)";
-        try (Connection c = DBUtil.getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
+        try (Connection c = DBUtil.getConnection();
+             PreparedStatement ps = c.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);) {
 
             ps.setInt(1, bean.getProduct().getId());
 
@@ -142,7 +143,7 @@ public class OrderItemDAOImpl implements OrderItemDAO {
 
     @Override
     public List<OrderItem> listByUser(int uid, int start, int count) {
-        List<OrderItem> beans = new ArrayList<OrderItem>();
+        List<OrderItem> beans = new ArrayList<>();
 
         String sql = "select * from tmall.OrderItem where uid = ? and oid=-1 order by id desc limit ?,? ";
 
@@ -327,7 +328,8 @@ public class OrderItemDAOImpl implements OrderItemDAO {
     @Override
     public int getSaleCount(int pid) {
         int total = 0;
-        try (Connection c = DBUtil.getConnection(); Statement s = c.createStatement();) {
+        try (Connection c = DBUtil.getConnection();
+             Statement s = c.createStatement();) {
 
             String sql = "select sum(number) from tmall.OrderItem where pid = " + pid;
 

@@ -6,6 +6,16 @@ public class ProductImage {
     private Product product;
     private int id;
 
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("ProductImage{");
+        sb.append("type='").append(type).append('\'');
+        sb.append(", product=").append(product);
+        sb.append(", id=").append(id);
+        sb.append('}');
+        return sb.toString();
+    }
+
     public int getId() {
         return id;
     }

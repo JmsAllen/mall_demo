@@ -6,6 +6,17 @@ public class PropertyValue {
     private Property property;
     private int id;
 
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("PropertyValue{");
+        sb.append("value='").append(value).append('\'');
+        sb.append(", product=").append(product);
+        sb.append(", property=").append(property);
+        sb.append(", id=").append(id);
+        sb.append('}');
+        return sb.toString();
+    }
+
     public int getId() {
         return id;
     }

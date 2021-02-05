@@ -173,7 +173,8 @@ public class ReviewDAOImpl implements ReviewDAO {
     public boolean isExist(String content, int pid) {
         String sql = "select * from tmall.Review where content = ? and pid = ?";
 
-        try (Connection c = DBUtil.getConnection(); PreparedStatement ps = c.prepareStatement(sql)) {
+        try (Connection c = DBUtil.getConnection();
+             PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setString(1, content);
             ps.setInt(2, pid);
 

@@ -15,10 +15,6 @@ public class CategoryDAOTest {
     }
 
     @Test
-    public void testGetTotal() {
-    }
-
-    @Test
     public void add() {
         Category category = new Category();
         category.setName("haha3");

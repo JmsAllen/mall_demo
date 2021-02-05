@@ -3,10 +3,7 @@ package com.jms.dao;
 import com.jms.dao.impl.ProductDAOImpl;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ProductDAOTest {
-    // TODO: 2021/2/4 ProductDAO 测试
     private ProductDAO productDAO = new ProductDAOImpl();
 
     @Test

@@ -14,7 +14,6 @@ import java.util.Date;
 import static org.junit.Assert.*;
 
 public class ReviewDAOTest {
-    // TODO: 2021/2/4 评论测试
     private ReviewDAO reviewDAO = new ReviewDAOImpl();
 
     @Test
@@ -76,13 +75,17 @@ public class ReviewDAOTest {
 
     @Test
     public void getCount() {
+        System.out.println(reviewDAO.getCount(8));
     }
 
     @Test
     public void testList() {
+        reviewDAO.list(2,0,3).forEach(System.out::println);
     }
+
 
     @Test
     public void isExist() {
+        System.out.println(reviewDAO.isExist("衣服可以哦", 2));
     }
 }
