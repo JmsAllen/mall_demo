@@ -1,8 +1,9 @@
 package com.jms.bean;
 
+import com.jms.dao.impl.OrderDAOImpl;
+
 import java.util.Date;
 import java.util.List;
-//import tmall.dao.OrderDAO;
 
 public class Order {
     private String orderCode;
@@ -25,26 +26,26 @@ public class Order {
     public String getStatusDesc(){
         String desc ="未知";
         switch(status){
-//          case OrderDAO.waitPay:
-//              desc="待付款";
-//              break;
-//          case OrderDAO.waitDelivery:
-//              desc="待发货";
-//              break;
-//          case OrderDAO.waitConfirm:
-//              desc="待收货";
-//              break;
-//          case OrderDAO.waitReview:
-//              desc="等评价";
-//              break;
-//          case OrderDAO.finish:
-//              desc="完成";
-//              break;
-//          case OrderDAO.delete:
-//              desc="刪除";
-//              break;
-//          default:
-//              desc="未知";
+          case OrderDAOImpl.waitPay:
+              desc="待付款";
+              break;
+          case OrderDAOImpl.waitDelivery:
+              desc="待发货";
+              break;
+          case OrderDAOImpl.waitConfirm:
+              desc="待收货";
+              break;
+          case OrderDAOImpl.waitReview:
+              desc="等评价";
+              break;
+          case OrderDAOImpl.finish:
+              desc="完成";
+              break;
+          case OrderDAOImpl.delete:
+              desc="刪除";
+              break;
+          default:
+              desc="未知";
         }
         return desc;
     }

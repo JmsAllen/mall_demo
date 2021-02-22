@@ -4,8 +4,6 @@ import com.jms.bean.Category;
 import com.jms.dao.impl.CategoryDAOImpl;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CategoryDAOTest {
     private CategoryDAO categoryDAO = new CategoryDAOImpl();
 
